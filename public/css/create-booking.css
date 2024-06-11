@@ -1,0 +1,78 @@
+/* CSS untuk form booking */
+.card {
+    border-radius: 15px; /* Mengubah sudut border card menjadi melengkung */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan pada card */
+}
+
+h2 {
+    color: #000; /* Warna judul */
+}
+
+.form-control {
+    border-radius: 10px; /* Mengubah sudut border input field */
+    border-color: #ced4da; /* Warna border input field */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    border-color: #007bff; /* Warna border tombol */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+    border-color: #0056b3; /* Warna border tombol saat dihover */
+}
+
+/* create-booking.css */
+.card {
+    background-color: #f8f9fa; /* Warna latar belakang abu-abu muda */
+    border-radius: 10px; /* Sudut bulat */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Bayangan */
+    margin: 30px auto;
+}
+
+.form-group {
+    position: relative; /* Menjadikan posisi relatif untuk kontainer form-group */
+}
+
+.error-message {
+    position: absolute; /* Mengatur posisi absolut */
+    top: 100%; /* Mengatur jarak dari atas */
+    left: 0; /* Mengatur posisi dari kiri */
+    color: #dc3545; /* Warna teks merah */
+    font-size: 0.8rem; /* Ukuran font lebih kecil */
+}
+
+.btn-info {
+    background-color: #007bff; /* Warna latar belakang biru */
+    border-color: #007bff; /* Warna border biru */
+}
+
+.btn-info:hover {
+    background-color: #0056b3; /* Warna latar belakang biru tua saat hover */
+    border-color: #0056b3; /* Warna border biru tua saat hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna latar belakang biru */
+    border-color: #007bff; /* Warna border biru */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Warna latar belakang abu-abu gelap */
+    border-color: #6c757d; /* Warna border abu-abu gelap */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang biru tua saat hover */
+    border-color: #0056b3; /* Warna border biru tua saat hover */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Warna latar belakang abu-abu gelap saat hover */
+    border-color: #545b62; /* Warna border abu-abu gelap saat hover */
+}
+
+.text-success {
+    color: #28a745; /* Warna teks hijau */
+}

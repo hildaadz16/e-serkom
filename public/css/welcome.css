@@ -1,0 +1,74 @@
+/* Body */
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    margin-top: 30px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 30px;
+    border-radius: 15px;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+.btn-primary:hover {
+    background-color: #ff3355;
+    border-color: #ff3355;
+}
+
+/* Heading */
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+/* Text */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Booking Menu */
+#booking-menu {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Styling */
+/* Adjust margin and padding for better spacing */
+.jumbotron p {
+    margin-bottom: 20px;
+}
+
+/* Style the booking menu heading */
+#booking-menu h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the booking menu text */
+#booking-menu p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}

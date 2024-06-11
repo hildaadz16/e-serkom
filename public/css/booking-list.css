@@ -1,0 +1,30 @@
+/* Custom CSS for booking list */
+
+/* Card styling */
+.card {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.table-card {
+    border-radius: 15px;
+    overflow: hidden; /* Prevent table from overflowing the card */
+}
+
+/* Table header */
+.table-card thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Table row */
+.table-card tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table row */
+.table-card tbody tr:hover {
+    background-color: #cce5ff;
+}
